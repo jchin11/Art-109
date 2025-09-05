@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <img src="images/owlcatdog.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/owlcatdog.jpg" alt="">
+        </div>
+        <img src="images/owlcatdog.jpg" alt="">
+    </section>
+    <h2>Responsive images using srcset</h2>
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" alt="shiny black dog looking pensive"
+        width="480" height="360" srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg  480w, 
+	   	  	   https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg  960w, 
+	   	  	   https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 1440w, 
+		 				 https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 1920w">
+    <section>
+        <h2>Responsive images using srcset minecraft</h2>
+        <img src="images/minecraft-houses-fallback.jpg" alt="minecraft house"
+        srcset="images/minecraft-houses-640.jpg 640w,
+        images/minecraft-houses-1280.jpg 1280w,
+        images/minecraft-houses-1920.jpg 1920w"
+        >
+    </section>
+</body>
+
+</html>
