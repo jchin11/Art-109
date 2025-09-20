@@ -1,0 +1,120 @@
+body {
+    animation: change-color 4s infinite alternate;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: antiquewhite;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: aquamarine;
+    }
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 80px auto;
+    animation: skew 4s infinite alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    100% {
+        transform: skew(30deg, 20deg);
+    }
+}
+.ball {
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 30px auto;
+    transition: 2s;
+}
+.bounce {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 30px auto;
+
+}
+.bounce:hover {
+    animation: bounce 4s alternate;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(400px);
+    }
+}
+.ball:hover {
+   transform: scale(2);
+   transform: translate(100px);
+   
+}
+.hover {
+    text-align: center;
+    transform: translateY(40px);
+    color: aliceblue;
+}
+.square {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 50px auto;
+    transition: all 1s;
+}
+
+.square:hover {
+    background-color: greenyellow;
+    transform: rotate(30deg);
+}
+
+.button-div {
+    text-align: center;
+}
+
+.button {
+    background-color: cyan;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .5s;
+
+}
+
+.button:hover {
+    background-color: orange;
+    transform: scale(1.5);
+}
+
+.loading {
+    background-color: green;
+    animation: stretch infinite alternate;
+    width: 80vw;
+}
+
+@keyframes stretch {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 80vw;
+    }
+}
