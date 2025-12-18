@@ -36,7 +36,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #b66046;
     /* Green background */
     color: #fff;
 }
@@ -70,7 +70,7 @@ body {
 .nav-links a.active {
     color: #e0e0e0;
     /* Lighter color for active/hover */
-    background-color: #1c7430;
+    background-color: #a13d16;
     /* Darker green background on hover */
     border-radius: 4px;
     /* Optional: rounded corners */
@@ -99,7 +99,7 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #28a745;
+        background-color: #d2d6bf;
         /* Green background for mobile view */
     }
 
@@ -194,6 +194,13 @@ footer a:hover {
 /* RESUME
 ------------------------------------*/
 .resume header::before {
+    background: url(../images/workbig.png) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+.project header::before {
     background: url(../images/whatdoyouwanttodotodaybig.png) center;
     background-size: cover;
     content: "";
