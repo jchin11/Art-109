@@ -169,8 +169,7 @@ footer a:hover {
 /* HOME
 ------------------------------------*/
 .home {
-    background: url(../images/whatdoyouwanttodotodaybig.png) no-repeat;
-    background-size: cover;
+
     display: flex;
     flex-direction: column;
 }
@@ -309,10 +308,11 @@ footer a:hover {
 footer {
     background: #222;
     color: #d3d4d6;
+    
 }
 .socials {
     list-style-type: none;
-    padding: 0;
+    padding: 2px;
 }
 .socials li {
     display: inline-block;
